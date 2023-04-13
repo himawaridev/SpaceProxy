@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta Name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook</title>
+    <link rel="stylesheet" href="assets/css/login.css">
+    <link rel="icon" href="assets/image/logo-facebook.png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+        integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+</head>
+
+<body id="body">
+    <!-- <button id="color-btn">Change Color</button> -->
+    <!-- <!DOCTYPE html>
+<html>
+<head>
+	<title>Button Example</title>
+	<style>
+		button {
+			padding: 10px 20px;
+			font-size: 18px;
+			background-color: #4CAF50;
+			color: white;
+			border: none;
+			border-radius: 5px;
+			cursor: pointer;
+		}
+	</style>
+</head>
+<body>
+	<button id="countButton">Count</button>
+	<button id="daysButton">Select Days</button>
+	<p>Result: <span id="result">-</span></p>
+
+	<script>
+		let count = 0;
+		let days = 1;
+
+		const countButton = document.getElementById("countButton");
+		const daysButton = document.getElementById("daysButton");
+		const resultElement = document.getElementById("result");
+
+		countButton.addEventListener("click", () => {
+			count++;
+			resultElement.textContent = count * days;
+		});
+
+		daysButton.addEventListener("click", () => {
+			days = prompt("Enter number of days:");
+			resultElement.textContent = count * days;
+		});
+	</script>
+</body>
+</html> -->
+
+    <!-- <label for="value">Value:</label>
+    <button id="decrease">-</button>
+    <input type="number" id="value" value="0">
+    <button id="increase">+</button>
+
+    <label for="days">Days:</label>
+    <select id="days">
+        <option value="1">1 day</option>
+        <option value="7">7 days</option>
+        <option value="30">30 days</option>
+    </select>
+
+    <button id="calculate">Calculate</button>
+
+    <p id="result"></p> -->
+    <!DOCTYPE html>
+    <html>
+
+    <head>
+        <title>Change Country Info</title>
+        <style>
+            .tag {
+                position: relative;
+                display: inline-block;
+                padding: 5px 10px;
+                border: 1px solid #ccc;
+                border-radius: 5px;
+                cursor: pointer;
+            }
+
+            .dropdown {
+                position: absolute;
+                top: 100%;
+                left: 0;
+                display: none;
+                padding: 10px;
+                background-color: #fff;
+                border: 1px solid #ccc;
+                border-radius: 5px;
+                box-shadow: 0 2px 5px rgba(0, 0, 0, .3);
+                z-index: 1;
+            }
+
+            .tag:hover .dropdown {
+                display: block;
+            }
+
+            .dropdown-item {
+                display: flex;
+                align-items: center;
+                padding: 5px;
+                cursor: pointer;
+            }
+
+            .flag {
+                margin-right: 10px;
+                height: 20px;
+                width: 30px;
+                object-fit: contain;
+            }
+        </style>
+    </head>
+
+    <body>
+
+        <div class="tag" id="country-tag">
+            <span id="country-name">United States</span>
+            <img id="country-flag" class="flag" src="assets/image/logo-world/1.png">
+            <div class="dropdown" id="dropdown">
+                <div class="dropdown-item" onclick="setCountry('USA', 'assets/image/logo-world/2.png')">
+                    <img class="flag" src="assets/image/logo-world/2.png">
+                    United States
+                </div>
+                <div class="dropdown-item" onclick="setCountry('UK', 'assets/image/logo-world/3.png')">
+                    <img class="flag" src="assets/image/logo-world/3.png">
+                    United Kingdom
+                </div>
+                <div class="dropdown-item" onclick="setCountry('France', 'assets/image/logo-world/4.png')">
+                    <img class="flag" src="assets/image/logo-world/4.png">
+                    France
+                </div>
+                <div class="dropdown-item"
+                    onclick="setCountry('Germany', 'assets/image/logo-world/5.png')">
+                    <img class="flag" src="assets/image/logo-world/5.png">
+                    Germany
+                </div>
+                <div class="dropdown-item" onclick="setCountry('Spain', 'assets/image/logo-world/6.png')">
+                    <img class="flag" src="assets/image/logo-world/6.png">
+                    Spain
+                </div>
+            </div>
+        </div>
+
+        <script>
+            
+        </script>
+
+    </body>
+
+    </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <script type="text/javascript" src="assets/js/login.js"></script>
+
+</body>
+
+</html>
